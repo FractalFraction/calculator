@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="lhCFNLX7x3FErVzATT6z" name="Page-1">
-        <mxGraphModel dx="642" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="587" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -46,29 +46,35 @@
                 <mxCell id="5" value="Needs to have an onClick event method that does something &lt;br&gt;with the display when the button is clicked" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="550" y="770" width="340" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Append a number to the display" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="6" value="Append a number to the display" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="530" y="50" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Append a number to the display" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="7" value="Append a number to the display" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="540" y="60" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Append a Number to a Display" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="8" value="Append a Number to a Display" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="110" y="670" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="What test do I need to write?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="9" value="What test do I need to write?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="110" y="700" width="170" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="What would my test want to check in the logic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="10" value="What would my test want to check in the logic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="110" y="720" width="260" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Needs to check that when an append method is called, &lt;br&gt;it returns an array of length + 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="11" value="Needs to check that when an append method is called, &lt;br&gt;it returns an array of length + 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="80" y="740" width="310" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Check the array contains the element that was added" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="12" value="Check the array contains the element that was added" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="60" y="775" width="300" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Will need to check an array/string that stores the display &lt;br&gt;contains the items (but this is already covered in my feature test, &lt;br&gt;so don't need in my component?)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="13" value="Will need to check an array/string that stores the display &lt;br&gt;contains the items (but this is already covered in my feature test, &lt;br&gt;so don't need in my component?)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="50" y="795" width="360" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Clear Button&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="870" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="As a user, &lt;br&gt;So I can calculate correctly,&amp;nbsp;&lt;br&gt;I want to be able to clear my display." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="105" y="860" width="210" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

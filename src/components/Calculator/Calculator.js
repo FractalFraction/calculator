@@ -14,12 +14,17 @@ import Display from '../Display/Display.js'
      this.setState({display: this.state.display + this.state.button[i]})
    }
 
+   clearDisplay = () => {
+     this.setState({display: ''})
+   }
+
    render() {
      return(
      <div>
         <Display displayStr = {`${this.state.display}`} />
         <button id={`number-button-${this.state.button[0]}`} data-testid={`number-button-${this.state.button[0]}`} onClick={() => this.updateDisplay(0)}>{this.state.button[0]}</button>
         <button id={`number-button-${this.state.button[1]}`} data-testid={`number-button-${this.state.button[1]}`} onClick={() => this.updateDisplay(1)}>{this.state.button[1]}</button>
+        <button id="button-clear" data-testid="button-clear" onClick={() => this.clearDisplay()}>AC</button>
      </div>
      )
    }

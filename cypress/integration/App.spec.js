@@ -32,7 +32,11 @@ describe("Test to see if my Calculator app works",()=>{
   })
 
   it("display can be cleared", () => {
-    
+    cy.visit('/');
+    cy.get("#number-button-1").click()
+    cy.get("#number-button-1").click()
+    cy.get("#button-clear").click()
+    cy.get("#number-display").should('have.value', '')
   })
 
 })
