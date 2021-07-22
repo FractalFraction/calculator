@@ -31,6 +31,8 @@ describe("Test to see if my Calculator app works",()=>{
     cy.get("#number-display").should('contain', 21)
   })
 
-
+  it("display can be cleared", () => {
+    
+  })
 
 })
