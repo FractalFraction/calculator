@@ -6,13 +6,13 @@ import Display from '../Display/Display.js'
  class Calculator extends React.Component {
    constructor(props){
      super(props)
-     this.state = {display: '', button: ['1','2']}
+     this.state = {display: '', numbers: ['1','2','3','4','5','6','7','8','9']}
    }
 
-   updateDisplay = (i) => {
+   updateDisplay = (number) => {
      // Check the button value
      // Set the state to the current state and add the button value at the right hand side 
-     this.setState({display: this.state.display + this.state.button[i]})
+     this.setState({display: this.state.display + number})
    }
 
    clearDisplay = () => {
@@ -25,8 +25,12 @@ import Display from '../Display/Display.js'
         <div className="display">
           <Display displayStr = {`${this.state.display}`} />
         </div>
-        <button id={`number-button-${this.state.button[0]}`} data-testid={`number-button-${this.state.button[0]}`} onClick={() => this.updateDisplay(0)}>{this.state.button[0]}</button>
-        <button id={`number-button-${this.state.button[1]}`} data-testid={`number-button-${this.state.button[1]}`} onClick={() => this.updateDisplay(1)}>{this.state.button[1]}</button>
+        <div className="numbers container">
+          {this.state.numbers.map(number => {
+            return <button id={`number-button-${number}`} data-testid={`number-button-${number}`} onClick={() => this.updateDisplay(number)}>{number}</button>
+          })
+          }
+        </div>
         <button id="button-clear" data-testid="button-clear" onClick={() => this.clearDisplay()}>AC</button>
      </div>
      )
@@ -34,3 +38,5 @@ import Display from '../Display/Display.js'
  }
  
  export default Calculator
+
+

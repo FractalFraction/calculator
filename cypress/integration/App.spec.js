@@ -39,4 +39,12 @@ describe("Test to see if my Calculator app works",()=>{
     cy.get("#number-display").should('have.value', '')
   })
 
+  it("check the display contains nine numerical buttons", () => {
+    cy.visit('/')
+    cy.get('div[class="numbers container"]').children().should('have.length', 9)
+    cy.get('div[class="numbers container"]').find('button').each(
+      ($btn, index) => cy.wrap($btn).should('have.id',`number-button-${index+1}`)
+    )
+  })
+
 })

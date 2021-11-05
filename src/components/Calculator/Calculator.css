@@ -22,3 +22,9 @@ div.display {
   background-color: var(--ultramarine-blue);
   border-color: var(--byzantine);
 }
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
