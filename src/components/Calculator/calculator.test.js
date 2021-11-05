@@ -1,3 +1,4 @@
+import React from 'react'
 import { render, screen, queryByAttribute } from '@testing-library/react';
 import Calculator from './Calculator.js';
 
