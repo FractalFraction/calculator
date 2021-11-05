@@ -1,4 +1,5 @@
 import React from 'react'
+import './Calculator.css'
 import Button from '../../Button/Button.js'
 import Display from '../Display/Display.js'
 
@@ -20,8 +21,10 @@ import Display from '../Display/Display.js'
 
    render() {
      return(
-     <div>
-        <Display displayStr = {`${this.state.display}`} />
+     <div className="calculator">
+        <div className="display">
+          <Display displayStr = {`${this.state.display}`} />
+        </div>
         <button id={`number-button-${this.state.button[0]}`} data-testid={`number-button-${this.state.button[0]}`} onClick={() => this.updateDisplay(0)}>{this.state.button[0]}</button>
         <button id={`number-button-${this.state.button[1]}`} data-testid={`number-button-${this.state.button[1]}`} onClick={() => this.updateDisplay(1)}>{this.state.button[1]}</button>
         <button id="button-clear" data-testid="button-clear" onClick={() => this.clearDisplay()}>AC</button>

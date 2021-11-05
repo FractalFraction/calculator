@@ -1,0 +1,24 @@
+div.calculator {
+  margin: 5rem 20%;
+}
+
+button {
+  padding: 2rem;
+  margin: 0.1rem;
+  border-radius: 2px;
+  border-color: var(--byzantine);
+  background-color: var(--dodger-blue);
+  font-size: large;
+}
+
+button:hover {
+  color: var(--trypan-blue);
+  background-color: var(--dodger-blue);
+}
+
+div.display {
+  width: 20rem;
+  height: 10rem;
+  background-color: var(--ultramarine-blue);
+  border-color: var(--byzantine);
+}
