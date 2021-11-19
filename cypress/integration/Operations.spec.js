@@ -1,6 +1,4 @@
-const cypress = require("cypress");
-
-describe.only('check calculator operations', () => {
+describe('check calculator operations', () => {
   
   it('user can add two numbers', () => {
     cy.visit('/')

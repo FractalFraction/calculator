@@ -1,5 +1,7 @@
 div.calculator {
   margin: 5rem 20%;
+  min-width: 400px;
+  max-width: 500px;
   border: 0.8rem solid var(--ultramarine-blue);
   padding: 0.8rem;
   background: var(--purple-2);
